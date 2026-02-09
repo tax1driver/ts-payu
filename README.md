@@ -1,6 +1,6 @@
 # PayU for NodeJS
 
-![Build](https://github.com/tax1driver/payu/workflows/Build/badge.svg) ![](https://img.shields.io/npm/v/@tax1driver/payu) ![](https://img.shields.io/github/last-commit/tax1driver/payu)
+[![Build](https://github.com/tax1driver/node-payu/actions/workflows/nodejs.yml/badge.svg)](https://github.com/tax1driver/node-payu/actions/workflows/nodejs.yml) ![](https://img.shields.io/npm/v/@tax1driver/payu) ![](https://img.shields.io/github/last-commit/tax1driver/payu)
 
 A type safe PayU client for NodeJS written in Typescript. 
 
