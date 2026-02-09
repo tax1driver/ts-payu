@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: [20.x, 22.x, 24.x, 25.x]
 
     steps:
       - uses: actions/checkout@v1
@@ -34,14 +34,14 @@ jobs:
       - name: Build docs
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 20
       - run: npm ci
       - run: npm run docs
       - run: touch docs/.nojekyll
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: docs # The folder the action should deploy.

@@ -123,7 +123,7 @@ export class PayU {
    * @throws {PayUError}
    * @memberof PayU
    */
-  public async captureOrder(orderId: string): Promise<OrderStatusResponse> {
+  public async legacyCaptureOrder(orderId: string): Promise<OrderStatusResponse> {
     const token = await this.oAuth.getAccessToken();
     const data = {
       orderId: orderId,
@@ -593,7 +593,7 @@ export class PayU {
    * @throws {PayUError}
    * @memberof PayU
    */
-  public async captureOrderNew(orderId: string): Promise<OrderStatusResponse> {
+  public async captureOrder(orderId: string): Promise<OrderStatusResponse> {
     const token = await this.oAuth.getAccessToken();
     const headers = {
       Authorization: `Bearer ${token}`,

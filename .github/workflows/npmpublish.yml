@@ -38,7 +38,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: "@ingameltd"
+          scope: "@tax1driver"
       - run: npm ci
       - run: npm publish
         env:
