@@ -1,6 +1,6 @@
 {
-  "name": "@ingameltd/payu",
-  "version": "1.0.6",
+  "name": "@tax1driver/node-payu",
+  "version": "1.1.0",
   "description": "PayU client for NodeJS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ingameltd/payu.git"
+    "url": "git+https://github.com/tax1driver/node-payu.git"
   },
   "keywords": [
     "payu",
@@ -25,18 +25,23 @@
     "node"
   ],
   "author": "Kasun Vithanage",
+  "contributors": [
+    "Kasun Vithanage (https://github.com/kasvith)",
+    "Maciej (https://github.com/tax1driver)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ingameltd/payu/issues"
+    "url": "https://github.com/tax1driver/node-payu/issues"
   },
-  "homepage": "https://github.com/ingameltd/payu#readme",
+  "homepage": "https://github.com/tax1driver/node-payu#readme",
   "devDependencies": {
-    "@types/node": "^17.0.24",
+    "@types/node": "^20.19.6",
     "typedoc": "^0.22.15",
     "typescript": "^4.6.3"
   },
   "dependencies": {
     "axios": "^0.21.4",
-    "moment": "^2.29.2"
+    "moment": "^2.29.2",
+    "querystring": "^0.2.1"
   }
 }

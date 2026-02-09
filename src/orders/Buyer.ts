@@ -6,12 +6,20 @@
  */
 export interface Buyer {
     /**
+     * Customer ID in merchant system
+     *
+     * @type {string}
+     * @memberof Buyer
+     */
+    extCustomerId?: string;
+
+    /**
      * Buyer's email address
      *
      * @type {string}
      * @memberof Buyer
      */
-    email: string,
+    email: string;
 
     /**
      * Buyer's first name
@@ -19,7 +27,7 @@ export interface Buyer {
      * @type {string}
      * @memberof Buyer
      */
-    firstName?: string,
+    firstName?: string;
 
     /**
      * Buyer's last name
@@ -27,7 +35,7 @@ export interface Buyer {
      * @type {string}
      * @memberof Buyer
      */
-    lastName?: string,
+    lastName?: string;
 
     /**
      * Buyer's telephone number
@@ -35,5 +43,48 @@ export interface Buyer {
      * @type {string}
      * @memberof Buyer
      */
-    phone?: string
+    phone?: string;
+
+    /**
+     * National Identification Number
+     *
+     * @type {string}
+     * @memberof Buyer
+     */
+    nin?: string;
+
+    /**
+     * Language code (e.g., 'pl', 'en')
+     *
+     * @type {string}
+     * @memberof Buyer
+     */
+    language?: string;
+
+    /**
+     * Date of birth
+     *
+     * @type {string}
+     * @memberof Buyer
+     */
+    birthDate?: string;
+
+    /**
+     * Delivery information
+     *
+     * @type {object}
+     * @memberof Buyer
+     */
+    delivery?: {
+        street?: string;
+        postalBox?: string;
+        postalCode?: string;
+        city?: string;
+        state?: string;
+        countryCode?: string;
+        name?: string;
+        recipientName?: string;
+        recipientEmail?: string;
+        recipientPhone?: string;
+    };
 }

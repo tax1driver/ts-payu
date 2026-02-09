@@ -14,7 +14,16 @@ export * from './orders/OrderCreateResponse';
 export * from './orders/OrderCreateStatus';
 export * from './orders/OrderStatusResponse';
 export * from './orders/Product';
+export * from './orders/RefundResponse';
 export * from './orders/Status';
+export * from './orders/TransactionResponse';
+
+export * from './paymentMethods/PaymentMethodsResponse';
+
+export * from './payouts/PayoutRequest';
+export * from './payouts/PayoutResponse';
+
+export * from './shop/ShopResponse';
 
 export * from './endpoints';
 export * from './ips';
