@@ -13,6 +13,7 @@ export * from './orders/Order';
 export * from './orders/OrderCreateResponse';
 export * from './orders/OrderCreateStatus';
 export * from './orders/OrderStatusResponse';
+export * from "./orders/OrderNotification";
 export * from './orders/Product';
 export * from './orders/RefundResponse';
 export * from './orders/Status';
