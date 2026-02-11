@@ -9,7 +9,7 @@ Originally authored by [kasvith](https://github.com/kasvith), updated by me to e
 ## Installation
 
 ```bash
-npm install --save @tax1driver/payu
+npm install --save @tax1driver/ts-payu
 ```
 
 ## Reference
@@ -21,7 +21,7 @@ npm install --save @tax1driver/payu
 ### Importing
                                                                
 ```typescript
-import { PayU, Order, Buyer, Product, Currency, ... } from "@tax1driver/payu";
+import { PayU, Order, Buyer, Product, Currency, ... } from "@tax1driver/ts-payu";
 ```
 
 ### Initialization
