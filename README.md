@@ -1,8 +1,8 @@
-# PayU for NodeJS
+# ts-payu
 
-[![Build](https://github.com/tax1driver/node-payu/actions/workflows/nodejs.yml/badge.svg)](https://github.com/tax1driver/node-payu/actions/workflows/nodejs.yml) ![](https://img.shields.io/npm/v/@tax1driver/payu) ![](https://img.shields.io/github/last-commit/tax1driver/payu)
+[![Build](https://github.com/tax1driver/ts-payu/actions/workflows/nodejs.yml/badge.svg)](https://github.com/tax1driver/ts-payu/actions/workflows/nodejs.yml) ![](https://img.shields.io/npm/v/@tax1driver/payu) ![](https://img.shields.io/github/last-commit/tax1driver/payu)
 
-A type safe PayU client for NodeJS written in Typescript. 
+A type safe PayU client for Typescript. 
 
 Originally authored by [kasvith](https://github.com/kasvith), updated by me to extend API coverage.
 
@@ -14,7 +14,7 @@ npm install --save @tax1driver/payu
 
 ## Reference
 
-[Full API & Types Reference](https://tax1driver.github.io/node-payu/)
+[Full API & Types Reference](https://tax1driver.github.io/ts-payu/)
 
 ## Basic Usage
 
